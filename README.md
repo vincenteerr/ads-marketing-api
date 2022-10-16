@@ -1,5 +1,5 @@
 # ads-marketing-api
-- 巨量引擎 MARKETING API SDK
+- 巨量引擎 MARKETING API SDK（2022年10月16日17:25:50）
 
 ## Installation
 

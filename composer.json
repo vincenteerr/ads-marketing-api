@@ -1,0 +1,36 @@
+{
+    "name": "vincenteerr/ads-marketing-api",
+    "description": "头条广告api",
+    "keywords": [
+        "巨量引擎",
+        "头条",
+        "marketing-api",
+        "sdk"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ToutiaoSdk\\": "core/Profile/",
+            "core\\": "core/",
+            "Report\\": "Report/",
+            "Dmp\\": "Dmp/",
+            "AdvertisingDelivery\\": "AdvertisingDelivery/",
+            "AdvertisingOriginality\\": "AdvertisingOriginality/",
+            "AdvertisingPlan\\": "AdvertisingPlan/",
+            "AuthenticationOauth\\": "AuthenticationOauth/",
+            "Tool\\": "Tool/",
+            "Advertiser\\": "Advertiser/"
+        }
+    },
+    "authors": [
+        {
+            "name": "vincenteerr",
+            "email": "gitdocker@163.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}

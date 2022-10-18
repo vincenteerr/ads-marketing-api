@@ -17,6 +17,7 @@ use core\Profile\BaseModule;
  * @property  \Tool\PicToVideo\Module $picToVideo
  * @property  \Tool\QueryTool\Module $queryTool
  *  @property \Tool\AudiencePackage\Module $audiencePackage
+ *  @property \Tool\Diagnosis\Module $diagnosis
  */
 class Module extends BaseModule
 {
@@ -29,6 +30,7 @@ class Module extends BaseModule
         'queryTool' => \Tool\QueryTool\Module::class,
         'appManagement' => \Tool\AppManagement\Module::class,
         'audiencePackage' => \Tool\AudiencePackage\Module::class,
+        'diagnosis' => \Tool\Diagnosis\Module::class,
     ];
 
     /**
